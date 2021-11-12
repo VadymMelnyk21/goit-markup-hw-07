@@ -1,0 +1,129 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--basic-dark-color);
+}
+
+.footer__container {
+    align-items: baseline;
+    display: flex;
+}
+
+.footer__contacts {
+    margin-right: 70px;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.contacts__link-map {
+    color: var(--basic-white-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.contacts__link-f {
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+ 
+    text-transform: uppercase;
+    color: var(--basic-white-color);
+}
+
+// не забыть
+.join--icon {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.join__social-icon {
+    fill: #ffffff;
+}
+
+.subscription {
+    margin-left: auto;
+}
+
+.footer-form__input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    margin: 0;
+
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        border-color: var(--accent-color);
+        outline: none;
+    }
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.footer-form__btn {
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin-left: 12px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-color: transparent;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+
+    color:var(--basic-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
+}
+
+.footer-form__icon {
+    fill: currentColor;
+    margin-left: 10px;
+}
