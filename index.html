@@ -29,12 +29,12 @@
     <header class="header">
       <div class="header__menu container">
         <a href="./index.html" class="logo"
-          >Web<span class="logo__accent">Studio</span></a
+          >Web<span class="logo__accent-header">Studio</span></a
         >
         <nav>
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="./index.html" class="nav__link current">Студия</a>
+              <a href="./index.html" class="nav__link nav--current">Студия</a>
             </li>
             <li class="nav__item">
               <a href="./portfolio.html" class="nav__link">Портфолио</a>
@@ -511,7 +511,7 @@
     <footer class="page-footer">
       <div class="container footer-container">
         <div class="footer-contacts">
-          <a href="./index.html" class="logo footer-logo"
+          <a href="./index.html" class="logo footer__logo"
             >Web<span class="logo__accent-footer">Studio</span></a
           >
           <address class="contacts">
@@ -611,14 +611,14 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form class="modal-form">
-          <p class="modal-form-title">
+          <p class="modal-form__title">
             Оставьте свои данные, мы вам перезвоним
           </p>
-          <label class="modal-form-label">
+          <label class="modal-form__label">
             Имя
-            <span class="modal-form-wrapper">
+            <span class="modal-form__wrapper">
               <input
-                class="modal-form-input"
+                class="modal-form__input"
                 name="user-name"
                 type="text"
                 minlength="2"
@@ -626,48 +626,48 @@
                 title="Имя должно содержать символы кириллицы или латиницы"
                 required
               />
-              <svg class="modal-form-icon" width="18px" height="18px">
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use href="./img/icons.svg#person-modal"></use>
               </svg>
             </span>
           </label>
 
-          <label class="modal-form-label">
+          <label class="modal-form__label">
             Телефон
-            <span class="modal-form-wrapper">
+            <span class="modal-form__wrapper">
               <input
-                class="modal-form-input"
+                class="modal-form__input"
                 name="user-tel"
                 type="tel"
                 title="063-000-00-00"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 required
               />
-              <svg class="modal-form-icon" width="18px" height="18px">
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use href="./img/icons.svg#phone-modal"></use>
               </svg>
             </span>
           </label>
 
-          <label class="modal-form-label">
+          <label class="modal-form__label">
             Почта
-            <span class="modal-form-wrapper">
+            <span class="modal-form__wrapper">
               <input
-                class="modal-form-input"
+                class="modal-form__input"
                 name="user-mail"
                 type="email"
                 required
               />
-              <svg class="modal-form-icon" width="18px" height="18px">
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use href="./img/icons.svg#email-modal"></use>
               </svg>
             </span>
           </label>
 
-          <label class="modal-form-label textarea-margin">
+          <label class="modal-form__label modal-form--textarea-margin">
             Комментарий
             <textarea
-              class="modal-form-textarea"
+              class="modal-form__textarea"
               name="comment"
               placeholder="Введите текст"
             ></textarea>
@@ -676,17 +676,17 @@
           <input
             type="checkbox"
             id="accept-policy"
-            class="modal-form-checkbox visually-hidden"
+            class="modal-form__checkbox visually-hidden"
           />
 
-          <label for="accept-policy" class="modal-form-checkbox-label">
+          <label for="accept-policy" class="modal-form__checkbox-label">
             Соглашаюсь с рассылкой и принимаю &nbsp;
-            <a href="" class="form-agreement" target="_blank"
+            <a href="" class="modal-form__agreement" target="_blank"
               >Условия договора</a
             >
           </label>
 
-          <button class="modal-form-btn" type="submit">Отправить</button>
+          <button class="modal-form__btn" type="submit">Отправить</button>
         </form>
 
         <button class="modal__btn" data-modal-close>

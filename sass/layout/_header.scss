@@ -38,7 +38,7 @@
     }
 }
 
-.nav__link.current {
+.nav__link.nav--current {
     color: var(--accent-color);
 
     &::after {
