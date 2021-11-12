@@ -21,9 +21,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="./css/main.min.css">
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -37,7 +35,9 @@
               <a href="./index.html" class="nav__link">Студия</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link nav--current">Портфолио</a>
+              <a href="./portfolio.html" class="nav__link nav--current"
+                >Портфолио</a
+              >
             </li>
             <li class="nav__item">
               <a href="" class="nav__link">Контакты</a>
@@ -46,7 +46,10 @@
         </nav>
         <ul class="header__contacts-list">
           <li class="nav__item">
-            <a href="mailto:info@devstudio.com" class="nav__link header__contacts-link">
+            <a
+              href="mailto:info@devstudio.com"
+              class="nav__link header__contacts-link"
+            >
               <svg class="header__contacts-icon" width="16px" height="12px">
                 <use href="./img/icons.svg#envelope"></use>
               </svg>
@@ -69,27 +72,27 @@
         <div class="container">
           <h1 class="visually-hidden">Наши проекты</h1>
           <ul class="filter">
-            <li class="filter-item">
-              <button class="filter-button" type="button">Все</button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Все</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Веб-сайты</button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Веб-сайты</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Приложения</button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Приложения</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="filter__button" type="button">Маркетинг</button>
             </li>
           </ul>
           <!-- projects -->
-          <ul class="projects-list">
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/tehnokrak.jpg"
                     alt="Технокряк"
@@ -97,8 +100,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -106,15 +109,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Технокряк</h2>
-                  <p class="text-portfolio">Веб-сайт</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Технокряк</h2>
+                  <p class="projects__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/poster-new-orlean.jpg"
                     alt="Постер"
@@ -122,8 +125,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -131,17 +134,17 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">
+                <div class="projects__container">
+                  <h2 class="projects__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="text-portfolio">Дизайн</p>
+                  <p class="projects__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/restoran-seafood.jpg"
                     alt="Ресторан"
@@ -149,8 +152,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -158,15 +161,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Ресторан Seafood</h2>
-                  <p class="text-portfolio">Приложение</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Ресторан Seafood</h2>
+                  <p class="projects__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/project-prime.jpg"
                     alt="Наушники"
@@ -174,8 +177,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -183,15 +186,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Проект Prime</h2>
-                  <p class="text-portfolio">Маркетинг</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Проект Prime</h2>
+                  <p class="projects__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/project-boxes.jpg"
                     alt="Коробки"
@@ -199,8 +202,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -208,15 +211,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Проект Boxes</h2>
-                  <p class="text-portfolio">Приложение</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Проект Boxes</h2>
+                  <p class="projects__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/inspiration.jpg"
                     alt="Вдохновения без границ"
@@ -224,8 +227,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -233,15 +236,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Inspiration has no Borders</h2>
-                  <p class="text-portfolio">Веб-сайт</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Inspiration has no Borders</h2>
+                  <p class="projects__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/izdanie-limitet.jpg"
                     alt="Лимитированое издание"
@@ -249,8 +252,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -258,15 +261,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Издание Limited Edition</h2>
-                  <p class="text-portfolio">Дизайн</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Издание Limited Edition</h2>
+                  <p class="projects__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/project-lab.jpg"
                     alt="Проект Лаб"
@@ -274,8 +277,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -283,15 +286,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Проект LAB</h2>
-                  <p class="text-portfolio">Маркетинг</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Проект LAB</h2>
+                  <p class="projects__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="projects-item">
-              <a href="" class="projects-link">
-                <div class="projects-box">
+            <li class="projects__item">
+              <a href="" class="projects__link">
+                <div class="projects__box">
                   <img
                     src="./img/portfolio/growing-business.jpg"
                     alt="Растущий бизнес"
@@ -299,8 +302,8 @@
                     width="370"
                     height="294"
                   />
-                  <div class="projects-overlay">
-                    <p class="projects-overlay-text">
+                  <div class="projects__overlay">
+                    <p class="projects__overlay-text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -308,9 +311,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects-text">
-                  <h2 class="title-portfolio">Growing Business</h2>
-                  <p class="text-portfolio">Приложение</p>
+                <div class="projects__container">
+                  <h2 class="projects__title">Growing Business</h2>
+                  <p class="projects__text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -408,10 +411,10 @@
               placeholder="E-mail"
               required
             /><button class="footer-form__btn" type="submit">
-                Подписаться
-                <svg class="footer-form__icon" width="24px" height="24px">
-                  <use href="./img/icons.svg#icon-send"></use>
-                </svg>
+              Подписаться
+              <svg class="footer-form__icon" width="24px" height="24px">
+                <use href="./img/icons.svg#icon-send"></use>
+              </svg>
             </button>
           </form>
         </div>
