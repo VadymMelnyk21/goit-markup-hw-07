@@ -51,8 +51,8 @@
 
     &:hover,
     &:focus {
-    color: var(--accent-color);
-    background-color: var(--basic-white-color);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-}
+        color: var(--accent-color);
+        background-color: var(--basic-white-color);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
 }
