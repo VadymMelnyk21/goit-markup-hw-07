@@ -31,6 +31,10 @@
   }
 }
 
+.icon-catalogue__link--background-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .icon-catalogue__social-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -41,10 +45,6 @@
   }
 }
 
-.join__link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.join__social-icon {
+.icon-catalogue__social-icon-footer {
   fill: #ffffff;
 }
