@@ -9,6 +9,7 @@
 
   color: #212121;
 }
+
 .modal-form__label {
   display: block;
 
@@ -133,19 +134,7 @@
   margin: 0 auto;
   padding: 10px 55px;
 
-  cursor: pointer;
-  border: transparent;
-
-  background-color: var(--accent-color);
-  color: var(--basic-white-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
   text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
