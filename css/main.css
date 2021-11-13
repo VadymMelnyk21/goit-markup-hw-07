@@ -74,6 +74,14 @@ p {
   padding-bottom: 94px;
 }
 
+.section--doing-padding {
+  padding-top: 0px;
+}
+
+.section--team-background {
+  background-color: #f5f4fa;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -521,10 +529,6 @@ p {
   height: 70px;
 }
 
-.section--doing-padding {
-  padding-top: 0px;
-}
-
 .doing {
   display: flex;
   flex-wrap: wrap;
@@ -557,10 +561,6 @@ p {
 }
 
 .team {
-  background-color: #f5f4fa;
-}
-
-.team__list {
   display: flex;
   flex-wrap: wrap;
   font-size: 16px;
