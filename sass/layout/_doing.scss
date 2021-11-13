@@ -1,20 +1,19 @@
+.section--doing-padding {
+  padding-top: 0px;
+}
+
 .doing {
-    padding-top: 0px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
 
-.doing__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-}
-
-.doing__item {
+  .doing__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     position: relative;
-}
+  }
 
-.doing__label {
+  .doing__label {
     position: absolute;
     width: 100%;
     height: 70px;
@@ -23,12 +22,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(47, 48, 58, 0.8);;
-}
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 
-.doing__text {
+  .doing__text {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--basic-white-color);
+  }
 }
