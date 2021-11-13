@@ -1,24 +1,22 @@
 .header {
-    border-bottom: 1px solid #ECECEC;
-}
+  border-bottom: 1px solid #ececec;
 
-.header__menu {
+  .header__container {
     display: flex;
     align-items: center;
+  }
 }
 
-/* nav */
+// nav
 
-.nav__list {
-    display: flex;
-}
+.nav {
+  display: flex;
 
-.nav__item + .nav__item {
+  .nav__item + .nav__item {
     margin-left: 50px;
-}
+  }
 
-
-.nav__link {
+  .nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -34,44 +32,44 @@
 
     &:hover,
     &:focus {
-        color: var(--accent-color);
+      color: var(--accent-color);
     }
-}
+  }
 
-.nav__link.nav--current {
+  .nav__link.nav__link--current {
     color: var(--accent-color);
 
     &::after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 4px;
-        border-radius: 2px;
-        background-color: var(--accent-color);
+      content: '';
+      display: block;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--accent-color);
 
-        position: absolute;
-        left: 0;
-        bottom: -1px;
+      position: absolute;
+      left: 0;
+      bottom: -1px;
     }
+  }
 }
 
-.header__contacts-list {
-    display: flex;
-    margin-left: auto;
-}
+.header-contacts {
+  margin-left: auto;
 
-.header__contacts-link {
+  .header-contacts__link {
     color: var(--primary-text-color);
     display: flex;
     align-items: center;
-}
+  }
 
-.header__contacts-icon {
+  .header-contacts__icon {
     margin-right: 10px;
     fill: currentColor;
 
     .nav__link:hover &,
     .nav__link:focus & {
-        fill: currentColor;
+      fill: currentColor;
     }
+  }
 }
