@@ -10,3 +10,13 @@
 .section--team-background {
   background-color: #f5f4fa;
 }
+
+.section__title {
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+}
